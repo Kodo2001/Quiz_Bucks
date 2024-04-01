@@ -13,66 +13,66 @@ function App() {
   const data = [ // awa dabu componentake jyam bo krdbawa bas projectakam bchuka boya lera damnawa awa Arrayeka banawe data ka 3 objecte tedaya har objecta u 3 key u value tedaya 1-id wa 2-question wa 3-answers ka answerakash arrayeka u 4 objecte tedaya har objectakesh 2 key u 2 value tedaya
     {
       id: 1,
-      question: "kodo's age'?",
+      question: "What is the capital of France",
       answers: [ //awash arrayeka ka 4 objecte tedaya har objektakesh 2 key u value tedaya
         {
-          text: "19",
+          text: "London",
           correct: false,
         },
         {
-          text: "23",
+          text: " Paris",
           correct: true,
         },
         {
-          text: "36",
+          text: "Berlin",
           correct: false,
         },
         {
-          text: "24",
+          text: "Roma",
           correct: false,
         },
       ],
     },
     {
       id: 2,
-      question: "23 years old it means kodo is.......?",
+      question: "Which of these is NOT a primary color?",
       answers: [ //awash arrayeka ka 4 objecte tedaya har objektakesh 2 key u value tedaya
         {
-          text: "2001",
+          text: "Yellow",
           correct: true,
         },
         {
-          text: "2005",
+          text: "Red",
           correct: false,
         },
         {
-          text: "2006",
+          text: "Green",
           correct: false,
         },
         {
-          text: "2007",
+          text: "Orange",
           correct: false,
         },
       ],
     },
     {
       id: 3,
-      question: "kodo la ch sharek daxwenet?",
+      question: "What is the largest planet in our solar system?",
       answers: [ //awash arrayeka ka 4 objecte tedaya har objektakesh 2 key u value tedaya
         {
-          text: "koya",
+          text: "Saturn",
           correct: false,
         },
         {
-          text: "slemani",
+          text: "Mars",
           correct: false,
         },
         {
-          text: "qwlqwla",
+          text: "Earth",
           correct: false,
         },
         {
-          text: "Hawler",
+          text: "Jupiter",
           correct: true,
         },
       ],
@@ -80,22 +80,22 @@ function App() {
 
     {
       id: 4,
-      question: "wshay Bashnn he kam kasaya?",
+      question: "How many sides does a hexagon have?",
       answers: [ //awash arrayeka ka 4 objecte tedaya har objektakesh 2 key u value tedaya
         {
-          text: "Karwan",
+          text: "3",
           correct: false,
         },
         {
-          text: "Pur fatm",
+          text: "6",
           correct: true,
         },
         {
-          text: "Nzar",
+          text: "9",
           correct: false,
         },
         {
-          text: "Ruaya",
+          text: "11",
           correct: false,
         },
       ],
